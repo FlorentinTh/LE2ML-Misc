@@ -57,7 +57,8 @@
           "maximum": 100
         }
       },
-      "additionalProperties": false
+      "additionalProperties": false,
+      "required": ["length", "function", "overlap"]
     },
     "features": {
       "type": "array",
@@ -80,7 +81,7 @@
       "additionalProperties": false
     }
   },
-  "required": ["version", "process", "input"],
+  "required": ["version", "process", "input", "windowing"],
   "allOf": [
     {
       "if": {

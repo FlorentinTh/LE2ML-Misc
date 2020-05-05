@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LIARA Input Schema",
+  "description": "JSON schema to validate data input files uploaded though the GUI of the IA web tool.",
+  "type": "array",
+  "items": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "label"
+      ]
+  },
+  "minItems": 1
+}
