@@ -1,0 +1,19 @@
+{
+  "version": "1",
+  "process": "train",
+  "input": {
+    "file": "./path/to/file.ext"
+  },
+  "windowing": {
+    "length": 60,
+    "function": "none",
+    "overlap": 0
+  },
+  "features": [
+    "average",
+    "std_dev"
+  ],
+  "algorithm": {
+    "name": "random-forest"
+  }
+}

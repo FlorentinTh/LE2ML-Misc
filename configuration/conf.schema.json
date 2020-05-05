@@ -87,7 +87,7 @@
       "if": {
         "properties": {
           "process": {
-            "const": "train"
+            "const": "test"
           }
         }
       },

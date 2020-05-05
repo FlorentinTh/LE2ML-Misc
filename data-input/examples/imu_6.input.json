@@ -1,0 +1,29 @@
+[
+  {
+    "acc_x": -1.002,
+    "acc_y": 0.215,
+    "acc_z": 0.138,
+    "gyr_x": -81.604,
+    "gyr_y": 9.766,
+    "gyr_z": 13.977,
+    "label": "participant-a"
+  },
+  {
+    "acc_x": -0.975,
+    "acc_y": 0.266,
+    "acc_z": 0.131,
+    "gyr_x": -81.238,
+    "gyr_y": 11.444,
+    "gyr_z": 14.862,
+    "label": "participant-b"
+  },
+  {
+    "acc_x": -0.968,
+    "acc_y": 0.286,
+    "acc_z": 0.132,
+    "gyr_x": -82.123,
+    "gyr_y": 12.695,
+    "gyr_z": 15.228,
+    "label": "participant-a"
+  }
+]

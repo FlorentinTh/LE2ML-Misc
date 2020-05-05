@@ -1,0 +1,20 @@
+{
+  "version": "1",
+  "process": "test",
+  "model": "./path/to/model",
+  "input": {
+    "file": "./path/to/file.ext"
+  },
+  "windowing": {
+    "length": 60,
+    "function": "none",
+    "overlap": 0
+  },
+  "features": [
+    "average",
+    "std_dev"
+  ],
+  "algorithm": {
+    "name": "random-forest"
+  }
+}

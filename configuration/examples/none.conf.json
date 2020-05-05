@@ -1,0 +1,16 @@
+{
+  "version": "1",
+  "process": "none",
+  "input": {
+    "file": "./path/to/file.ext"
+  },
+  "windowing": {
+    "length": 0,
+    "function": "none",
+    "overlap": 0
+  },
+  "features": [
+    "average",
+    "std_dev"
+  ]
+}
