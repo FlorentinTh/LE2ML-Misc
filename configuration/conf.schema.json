@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LIARA Configuration Schema",
+  "description": "JSON schema to validate configuration files uploaded though the GUI of the IA web tool.",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "process": {
+      "type": "string",
+      "enum": ["train", "test", "none"]
+    },
+    "model": {
+      "type": "string",
+      "format": "iri-reference"
+    },
+    "input": {
+      "type": "object",
+      "properties": {
+        "file": {
+          "type": "string",
+          "format": "iri-reference"
+        },
+        "ws": {
+          "type": "string",
+          "format": "uri-reference"
+        }
+      },
+      "additionalProperties": false,
+      "anyOf": [
+        {
+          "required": ["file"]
+        },
+        {
+          "required": ["ws"]
+        }
+      ],
+      "not": {
+        "required": ["file", "ws"]
+      }
+    },
+    "windowing": {
+      "type": "object",
+      "properties": {
+        "length": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "function": {
+          "type": "string",
+          "enum": ["none", "rectangular", "triangular", "hamming", "hann"]
+        },
+        "overlap": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        }
+      },
+      "additionalProperties": false
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "algorithm": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "parameters": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": ["version", "process", "input"],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "process": {
+            "const": "train"
+          }
+        }
+      },
+      "then": {
+        "required": ["model"]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "process": {
+            "enum": ["train", "test"]
+          }
+        }
+      },
+      "then": {
+        "required": ["algorithm"]
+      }
+    }
+  ]
+}
