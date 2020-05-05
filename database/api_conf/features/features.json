@@ -1,0 +1,110 @@
+[
+  {
+     "label":"Average",
+     "slug":"average",
+     "domain":"time",
+     "container":"core-features"
+  },
+  {
+     "label":"Average Total",
+     "slug":"average_total",
+     "domain":"time",
+     "container":"core-features"
+  },
+  {
+     "label":"Standard Deviation",
+     "slug":"std_dev",
+     "domain":"time",
+     "container":"core-features"
+  },
+  {
+     "label":"Standard Deviation Total",
+     "slug":"std_dev_total",
+     "domain":"time",
+     "container":"core-features"
+  },
+  {
+     "label":"Skewness",
+     "slug":"skewness",
+     "domain":"time",
+     "container":"core-features"
+  },
+  {
+     "label":"Skewness Total",
+     "slug":"skewness_total",
+     "domain":"time",
+     "container":"core-features"
+  },
+  {
+     "label":"Kurtosis",
+     "slug":"kurtosis",
+     "domain":"time",
+     "container":"core-features"
+  },
+  {
+     "label":"Kurtosis Total",
+     "slug":"kurtosis_total",
+     "domain":"time",
+     "container":"core-features"
+  },
+  {
+     "label":"Zero Crossing Rate",
+     "slug":"zero_crossing_rate",
+     "domain":"time",
+     "container":"core-features"
+  },
+  {
+     "label":"Zero Crossing Rate Total",
+     "slug":"zero_crossing_rate_total",
+     "domain":"time",
+     "container":"core-features"
+  },
+  {
+     "label":"Correlation",
+     "slug":"Correlation",
+     "domain":"time",
+     "container":"core-features"
+  },
+  {
+     "label":"Correlation Total",
+     "slug":"correlation_total",
+     "domain":"time",
+     "container":"core-features"
+  },
+  {
+     "label":"DC Component",
+     "slug":"dc_component",
+     "domain":"frequential",
+     "container":"core-features"
+  },
+  {
+     "label":"DC Component Total",
+     "slug":"dc_component_total",
+     "domain":"frequential",
+     "container":"core-features"
+  },
+  {
+     "label":"Energy",
+     "slug":"energy",
+     "domain":"frequential",
+     "container":"core-features"
+  },
+  {
+     "label":"Energy Total",
+     "slug":"energy_total",
+     "domain":"frequential",
+     "container":"core-features"
+  },
+  {
+     "label":"Entropy",
+     "slug":"entropy",
+     "domain":"frequential",
+     "container":"core-features"
+  },
+  {
+     "label":"Entropy Total",
+     "slug":"entropy_total",
+     "domain":"frequential",
+     "container":"core-features"
+  }
+]

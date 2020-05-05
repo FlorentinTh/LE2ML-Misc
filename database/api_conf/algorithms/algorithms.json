@@ -1,0 +1,53 @@
+[
+  {
+     "label":"CART",
+     "slug": "cart",
+     "container": "core-py-sk"
+  },
+  {
+     "label":"Gaussian Mixture Model",
+     "slug": "gmm",
+     "container": "core-py-sk"
+  },
+  {
+     "label":"KMeans",
+     "slug": "k-means",
+     "container": "core-py-sk"
+  }
+  ,
+  {
+     "label":"K-Nearest Neighbors",
+     "slug": "k-nn",
+     "container": "core-py-sk"
+  }
+  ,
+  {
+     "label":"Naive Bayes",
+     "slug": "naive-bayes",
+     "container": "core-py-sk"
+  }
+  ,
+  {
+     "label":"Neural Network",
+     "slug": "neural-net",
+     "container": "core-py-sk"
+  }
+  ,
+  {
+     "label":"Perceptron",
+     "slug": "perceptron",
+     "container": "core-py-sk"
+  }
+  ,
+  {
+     "label":"RandomForest",
+     "slug": "random-forest",
+     "container": "core-py-sk"
+  }
+  ,
+  {
+     "label":"SVM",
+     "slug": "svm",
+     "container": "core-py-sk"
+  }
+]
