@@ -41,24 +41,43 @@
       }
     },
     "windowing": {
-      "type": "object",
-      "properties": {
-        "length": {
-          "type": "integer",
-          "minimum": 0
+      "oneOf": [
+        {
+          "properties": {
+            "enable": {
+              "const": false
+            }
+          },
+          "additionalProperties": false
         },
-        "function": {
-          "type": "string",
-          "enum": ["none", "rectangular", "triangular", "hamming", "hann"]
-        },
-        "overlap": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 100
+        {
+          "properties": {
+            "enable": {
+              "const": true
+            },
+            "parameters": {
+              "type": "object",
+              "properties": {
+                "length": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "function": {
+                  "type": "string",
+                  "enum": ["none", "rectangular", "triangular", "hamming", "hann"]
+                },
+                "overlap": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100
+                }
+              },
+              "additionalProperties": false,
+              "required": ["length", "function", "overlap"]
+            }
+          }
         }
-      },
-      "additionalProperties": false,
-      "required": ["length", "function", "overlap"]
+      ]
     },
     "features": {
       "type": "array",
@@ -93,6 +112,11 @@
       },
       "then": {
         "required": ["model"]
+      },
+      "else": {
+        "not": {
+          "required": ["model"]
+        }
       }
     },
     {
@@ -105,6 +129,11 @@
       },
       "then": {
         "required": ["algorithm"]
+      },
+      "else": {
+        "not": {
+          "required": ["algorithm"]
+        }
       }
     }
   ]

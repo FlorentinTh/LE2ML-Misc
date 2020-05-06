@@ -5,9 +5,12 @@
     "file": "./path/to/file.ext"
   },
   "windowing": {
-    "length": 60,
-    "function": "none",
-    "overlap": 0
+    "enable": true,
+    "parameters": {
+      "length": 60,
+      "function": "none",
+      "overlap": 0
+    }
   },
   "features": [
     "average",
