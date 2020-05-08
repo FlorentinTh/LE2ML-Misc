@@ -12,10 +12,7 @@
       "overlap": 0
     }
   },
-  "features": [
-    "average",
-    "std_dev"
-  ],
+  "features": ["average", "std_dev"],
   "algorithm": {
     "name": "random-forest"
   }
