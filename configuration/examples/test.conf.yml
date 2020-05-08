@@ -1,0 +1,12 @@
+version: '1'
+process: test
+model: './path/to/model'
+input:
+  file: './path/to/file.ext'
+windowing:
+  enable: false
+features:
+  - average
+  - std_dev
+algorithm:
+  name: random-forest

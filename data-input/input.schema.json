@@ -4,15 +4,13 @@
   "description": "JSON schema to validate data input files uploaded though the GUI of the IA web tool.",
   "type": "array",
   "items": {
-      "type": "object",
-      "properties": {
-        "label": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "label"
-      ]
+    "type": "object",
+    "properties": {
+      "label": {
+        "type": "string"
+      }
+    },
+    "required": ["label"]
   },
   "minItems": 1
 }

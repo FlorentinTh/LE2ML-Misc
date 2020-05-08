@@ -1,0 +1,13 @@
+version: '1'
+process: none
+input:
+  file: './path/to/file.ext'
+windowing:
+  enable: true
+  parameters:
+    length: 60
+    function: none
+    overlap: 0
+features:
+  - average
+  - std_dev

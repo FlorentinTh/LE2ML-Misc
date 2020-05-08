@@ -6,7 +6,7 @@ Repository of miscellaneous files and ressources for the PiCluster project.
 
 ## Authors
 
-* [**Florentin Thullier**](https://github.com/FlorentinTh) - 2020
+- [**Florentin Thullier**](https://github.com/FlorentinTh) - 2020
 
 ## License
 
