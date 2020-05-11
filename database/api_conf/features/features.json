@@ -1,125 +1,125 @@
 [
   {
-    "label": "Average",
+    "label": "average",
     "slug": "average",
     "domain": "time",
     "enable": true,
     "container": "core-features"
   },
   {
-    "label": "Average Total",
+    "label": "average total",
     "slug": "average_total",
     "domain": "time",
     "enable": true,
     "container": "core-features"
   },
   {
-    "label": "Standard Deviation",
+    "label": "standard deviation",
     "slug": "std_dev",
     "domain": "time",
     "enable": true,
     "container": "core-features"
   },
   {
-    "label": "Standard Deviation Total",
+    "label": "standard deviation total",
     "slug": "std_dev_total",
     "domain": "time",
     "enable": true,
     "container": "core-features"
   },
   {
-    "label": "Skewness",
+    "label": "skewness",
     "slug": "skewness",
     "domain": "time",
     "enable": true,
     "container": "core-features"
   },
   {
-    "label": "Skewness Total",
+    "label": "skewness total",
     "slug": "skewness_total",
     "domain": "time",
     "enable": true,
     "container": "core-features"
   },
   {
-    "label": "Kurtosis",
+    "label": "kurtosis",
     "slug": "kurtosis",
     "domain": "time",
     "enable": true,
     "container": "core-features"
   },
   {
-    "label": "Kurtosis Total",
+    "label": "kurtosis total",
     "slug": "kurtosis_total",
     "domain": "time",
     "enable": true,
     "container": "core-features"
   },
   {
-    "label": "Zero Crossing Rate",
+    "label": "zero crossing rate",
     "slug": "zero_crossing_rate",
     "domain": "time",
     "enable": true,
     "container": "core-features"
   },
   {
-    "label": "Zero Crossing Rate Total",
+    "label": "zero crossing rate total",
     "slug": "zero_crossing_rate_total",
     "domain": "time",
     "enable": true,
     "container": "core-features"
   },
   {
-    "label": "Correlation",
-    "slug": "Correlation",
+    "label": "correlation",
+    "slug": "correlation",
     "domain": "time",
     "enable": true,
     "container": "core-features"
   },
   {
-    "label": "Correlation Total",
+    "label": "correlation total",
     "slug": "correlation_total",
     "domain": "time",
     "enable": true,
     "container": "core-features"
   },
   {
-    "label": "DC Component",
+    "label": "dc component",
     "slug": "dc_component",
     "domain": "frequential",
     "enable": true,
     "container": "core-features"
   },
   {
-    "label": "DC Component Total",
+    "label": "dc component total",
     "slug": "dc_component_total",
     "domain": "frequential",
     "enable": true,
     "container": "core-features"
   },
   {
-    "label": "Energy",
+    "label": "energy",
     "slug": "energy",
     "domain": "frequential",
     "enable": true,
     "container": "core-features"
   },
   {
-    "label": "Energy Total",
+    "label": "energy total",
     "slug": "energy_total",
     "domain": "frequential",
     "enable": true,
     "container": "core-features"
   },
   {
-    "label": "Entropy",
+    "label": "entropy",
     "slug": "entropy",
     "domain": "frequential",
     "enable": true,
     "container": "core-features"
   },
   {
-    "label": "Entropy Total",
+    "label": "entropy total",
     "slug": "entropy_total",
     "domain": "frequential",
     "enable": true,
