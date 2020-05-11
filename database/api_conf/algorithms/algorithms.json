@@ -2,46 +2,64 @@
   {
     "label": "CART",
     "slug": "cart",
+    "type": "supervised",
+    "enable": false,
     "container": "core-py-sk"
   },
   {
     "label": "Gaussian Mixture Model",
     "slug": "gmm",
+    "type": "unsupervised",
+    "enable": false,
     "container": "core-py-sk"
   },
   {
     "label": "KMeans",
     "slug": "k-means",
+    "type": "unsupervised",
+    "enable": false,
     "container": "core-py-sk"
   },
   {
     "label": "K-Nearest Neighbors",
     "slug": "k-nn",
+    "type": "supervised",
+    "enable": true,
     "container": "core-py-sk"
   },
   {
     "label": "Naive Bayes",
     "slug": "naive-bayes",
+    "type": "supervised",
+    "enable": false,
     "container": "core-py-sk"
   },
   {
     "label": "Neural Network",
     "slug": "neural-net",
+    "type": "supervised",
+    "enable": false,
     "container": "core-py-sk"
   },
   {
     "label": "Perceptron",
     "slug": "perceptron",
+    "type": "supervised",
+    "enable": false,
     "container": "core-py-sk"
   },
   {
     "label": "RandomForest",
     "slug": "random-forest",
+    "type": "supervised",
+    "enable": true,
     "container": "core-py-sk"
   },
   {
     "label": "SVM",
     "slug": "svm",
+    "type": "supervised",
+    "enable": false,
     "container": "core-py-sk"
   }
 ]
