@@ -8,35 +8,35 @@
   },
   {
     "label": "gaussian mixture model",
-    "slug": "gmm",
+    "slug": "gaussian_mixture_model",
     "type": "unsupervised",
     "enable": false,
     "container": "core-py-sk"
   },
   {
     "label": "kmeans",
-    "slug": "k-means",
+    "slug": "k_means",
     "type": "unsupervised",
     "enable": false,
     "container": "core-py-sk"
   },
   {
     "label": "k-nearest neighbors",
-    "slug": "k-nn",
+    "slug": "k_nearest_neighbors",
     "type": "supervised",
     "enable": true,
     "container": "core-py-sk"
   },
   {
     "label": "naive bayes",
-    "slug": "naive-bayes",
+    "slug": "naive_bayes",
     "type": "supervised",
     "enable": false,
     "container": "core-py-sk"
   },
   {
     "label": "neural network",
-    "slug": "neural-net",
+    "slug": "neural_network",
     "type": "supervised",
     "enable": false,
     "container": "core-py-sk"
@@ -49,15 +49,15 @@
     "container": "core-py-sk"
   },
   {
-    "label": "randomforest",
-    "slug": "random-forest",
+    "label": "random forest",
+    "slug": "random_forest",
     "type": "supervised",
     "enable": true,
     "container": "core-py-sk"
   },
   {
-    "label": "svm",
-    "slug": "svm",
+    "label": "support-vector machine",
+    "slug": "support_vector_machine",
     "type": "supervised",
     "enable": false,
     "container": "core-py-sk"
