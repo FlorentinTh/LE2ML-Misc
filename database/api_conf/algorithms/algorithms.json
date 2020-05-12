@@ -3,63 +3,72 @@
     "label": "cart",
     "slug": "cart",
     "type": "supervised",
-    "enable": false,
-    "container": "core-py-sk"
+    "enabled": false,
+    "container": "core-py-sk",
+    "isDeleted": false
   },
   {
     "label": "gaussian mixture model",
     "slug": "gaussian_mixture_model",
     "type": "unsupervised",
-    "enable": false,
-    "container": "core-py-sk"
+    "enabled": false,
+    "container": "core-py-sk",
+    "isDeleted": false
   },
   {
     "label": "kmeans",
     "slug": "k_means",
     "type": "unsupervised",
-    "enable": false,
-    "container": "core-py-sk"
+    "enabled": false,
+    "container": "core-py-sk",
+    "isDeleted": false
   },
   {
     "label": "k-nearest neighbors",
     "slug": "k_nearest_neighbors",
     "type": "supervised",
-    "enable": true,
-    "container": "core-py-sk"
+    "enabled": true,
+    "container": "core-py-sk",
+    "isDeleted": false
   },
   {
     "label": "naive bayes",
     "slug": "naive_bayes",
     "type": "supervised",
-    "enable": false,
-    "container": "core-py-sk"
+    "enabled": false,
+    "container": "core-py-sk",
+    "isDeleted": false
   },
   {
     "label": "neural network",
     "slug": "neural_network",
     "type": "supervised",
-    "enable": false,
-    "container": "core-py-sk"
+    "enabled": false,
+    "container": "core-py-sk",
+    "isDeleted": false
   },
   {
     "label": "perceptron",
     "slug": "perceptron",
     "type": "supervised",
-    "enable": false,
-    "container": "core-py-sk"
+    "enabled": false,
+    "container": "core-py-sk",
+    "isDeleted": false
   },
   {
     "label": "random forest",
     "slug": "random_forest",
     "type": "supervised",
-    "enable": true,
-    "container": "core-py-sk"
+    "enabled": true,
+    "container": "core-py-sk",
+    "isDeleted": false
   },
   {
     "label": "support-vector machine",
     "slug": "support_vector_machine",
     "type": "supervised",
-    "enable": false,
-    "container": "core-py-sk"
+    "enabled": false,
+    "container": "core-py-sk",
+    "isDeleted": false
   }
 ]

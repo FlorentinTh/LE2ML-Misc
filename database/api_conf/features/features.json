@@ -3,126 +3,144 @@
     "label": "average",
     "slug": "average",
     "domain": "time",
-    "enable": true,
-    "container": "core-features"
+    "enabled": true,
+    "container": "core-features",
+    "isDeleted": false
   },
   {
     "label": "average total",
     "slug": "average_total",
     "domain": "time",
-    "enable": true,
-    "container": "core-features"
+    "enabled": true,
+    "container": "core-features",
+    "isDeleted": false
   },
   {
     "label": "standard deviation",
     "slug": "std_dev",
     "domain": "time",
-    "enable": true,
-    "container": "core-features"
+    "enabled": true,
+    "container": "core-features",
+    "isDeleted": false
   },
   {
     "label": "standard deviation total",
     "slug": "std_dev_total",
     "domain": "time",
-    "enable": true,
-    "container": "core-features"
+    "enabled": true,
+    "container": "core-features",
+    "isDeleted": false
   },
   {
     "label": "skewness",
     "slug": "skewness",
     "domain": "time",
-    "enable": true,
-    "container": "core-features"
+    "enabled": true,
+    "container": "core-features",
+    "isDeleted": false
   },
   {
     "label": "skewness total",
     "slug": "skewness_total",
     "domain": "time",
-    "enable": true,
-    "container": "core-features"
+    "enabled": true,
+    "container": "core-features",
+    "isDeleted": false
   },
   {
     "label": "kurtosis",
     "slug": "kurtosis",
     "domain": "time",
-    "enable": true,
-    "container": "core-features"
+    "enabled": true,
+    "container": "core-features",
+    "isDeleted": false
   },
   {
     "label": "kurtosis total",
     "slug": "kurtosis_total",
     "domain": "time",
-    "enable": true,
-    "container": "core-features"
+    "enabled": true,
+    "container": "core-features",
+    "isDeleted": false
   },
   {
     "label": "zero crossing rate",
     "slug": "zero_crossing_rate",
     "domain": "time",
-    "enable": true,
-    "container": "core-features"
+    "enabled": true,
+    "container": "core-features",
+    "isDeleted": false
   },
   {
     "label": "zero crossing rate total",
     "slug": "zero_crossing_rate_total",
     "domain": "time",
-    "enable": true,
-    "container": "core-features"
+    "enabled": true,
+    "container": "core-features",
+    "isDeleted": false
   },
   {
     "label": "correlation",
     "slug": "correlation",
     "domain": "time",
-    "enable": true,
-    "container": "core-features"
+    "enabled": true,
+    "container": "core-features",
+    "isDeleted": false
   },
   {
     "label": "correlation total",
     "slug": "correlation_total",
     "domain": "time",
-    "enable": true,
-    "container": "core-features"
+    "enabled": true,
+    "container": "core-features",
+    "isDeleted": false
   },
   {
     "label": "dc component",
     "slug": "dc_component",
     "domain": "frequential",
-    "enable": true,
-    "container": "core-features"
+    "enabled": true,
+    "container": "core-features",
+    "isDeleted": false
   },
   {
     "label": "dc component total",
     "slug": "dc_component_total",
     "domain": "frequential",
-    "enable": true,
-    "container": "core-features"
+    "enabled": true,
+    "container": "core-features",
+    "isDeleted": false
   },
   {
     "label": "energy",
     "slug": "energy",
     "domain": "frequential",
-    "enable": true,
-    "container": "core-features"
+    "enabled": true,
+    "container": "core-features",
+    "isDeleted": false
   },
   {
     "label": "energy total",
     "slug": "energy_total",
     "domain": "frequential",
-    "enable": true,
-    "container": "core-features"
+    "enabled": true,
+    "container": "core-features",
+    "isDeleted": false
   },
   {
     "label": "entropy",
     "slug": "entropy",
     "domain": "frequential",
-    "enable": true,
-    "container": "core-features"
+    "enabled": true,
+    "container": "core-features",
+    "isDeleted": false
   },
   {
     "label": "entropy total",
     "slug": "entropy_total",
     "domain": "frequential",
-    "enable": true,
-    "container": "core-features"
+    "enabled": true,
+    "container": "core-features",
+    "isDeleted": false
   }
 ]
