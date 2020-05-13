@@ -12,4 +12,4 @@ features:
   - average
   - std_dev
 algorithm:
-  name: random-forest
+  name: random_forest
