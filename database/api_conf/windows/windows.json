@@ -3,28 +3,28 @@
     "label": "rectangular",
     "slug": "rectangular",
     "enabled": false,
-    "container": "core-windows",
+    "container": "core-window-functions",
     "isDeleted": false
   },
   {
     "label": "triangular",
     "slug": "triangular",
     "enabled": false,
-    "container": "core-windows",
+    "container": "core-window-functions",
     "isDeleted": false
   },
   {
     "label": "hamming",
     "slug": "hamming",
     "enabled": false,
-    "container": "core-windows",
+    "container": "core-window-functions",
     "isDeleted": false
   },
   {
     "label": "hann",
     "slug": "hann",
     "enabled": false,
-    "container": "core-windows",
+    "container": "core-window-functions",
     "isDeleted": false
   }
 ]
