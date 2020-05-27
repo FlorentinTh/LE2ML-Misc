@@ -1,7 +1,7 @@
 {
   "version": "1",
   "process": "test",
-  "model": "./path/to/model",
+  "model": "./path/to/model.ext",
   "input": {
     "file": "./path/to/file.ext"
   },
