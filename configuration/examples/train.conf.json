@@ -2,7 +2,10 @@
   "version": "1",
   "process": "train",
   "input": {
-    "file": "./path/to/file.ext"
+    "file": {
+      "type": "raw",
+      "filename": "./path/to/file.ext"
+    }
   },
   "windowing": {
     "enable": true,

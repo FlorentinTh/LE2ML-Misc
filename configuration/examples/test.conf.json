@@ -3,7 +3,10 @@
   "process": "test",
   "model": "./path/to/model.ext",
   "input": {
-    "file": "./path/to/file.ext"
+    "file": {
+      "type": "features",
+      "filename": "./path/to/file.ext"
+    }
   },
   "windowing": {
     "enable": false
