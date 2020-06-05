@@ -85,7 +85,9 @@
               "additionalProperties": false,
               "required": ["length", "function", "overlap"]
             }
-          }
+          },
+          "additionalProperties": false,
+          "required": ["parameters"]
         }
       ]
     },

@@ -1,0 +1,23 @@
+/**
+ * Example of a user with admin role.
+ *  password: liaralab
+ */
+
+[
+  {
+    "lastname": "admin",
+    "firstname": "admin",
+    "email": "admin@uqac.ca",
+    "role": "admin",
+    "dateCreated": {
+      "$date": {
+        "$numberLong": "1591367153052"
+      }
+    },
+    "lastConnection": null,
+    "salt": "$2b$10$GRozyHir7b6hhewXk.xYgu",
+    "hash": "$2b$10$GRozyHir7b6hhewXk.xYguChWTuw2pBLBeDSHBkJs9LGt9YyHo7qi",
+    "tmpPassword": false,
+    "isDeleted": false
+  }
+]
