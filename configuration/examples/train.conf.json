@@ -17,6 +17,9 @@
   },
   "features": ["average", "std_dev"],
   "algorithm": {
-    "name": "random_forest"
+    "name": "random_forest",
+    "parameters": {
+      "example": "parameter"
+    }
   }
 }

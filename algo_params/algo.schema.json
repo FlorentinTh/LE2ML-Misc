@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LIARA Parameters Schema",
+  "description": "JSON schema to validate JSON files that describe algorithms parameters list.",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "algorithm": {
+      "type": "string"
+    },
+    "parameters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9 ]+$",
+            "minLength": 1
+          },
+          "slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$",
+            "minLength": 1
+          },
+          "type": {
+            "type": "string",
+            "enum": ["number", "list", "string", "range"]
+          },
+          "element": {
+            "type": "string",
+            "enum": ["input", "select", "radio", "checkbox"]
+          },
+          "values": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "pattern": "^[a-zA-Z0-9 ]+$",
+                  "minLength": 1
+                },
+                "slug": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9_]+$",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false,
+              "required": ["label", "slug"]
+            },
+            "minItems": 2,
+            "uniqueItems": true,
+            "additionalItems": false
+          },
+          "default": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$",
+            "minLength": 1
+          },
+          "min": {
+            "type": "number"
+          },
+          "max": {
+            "type": "number"
+          }
+        },
+        "additionalProperties": false,
+        "required": ["label", "slug", "type", "element"],
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "list"
+                }
+              }
+            },
+            "then": {
+              "required": ["values", "default"]
+            },
+            "else": {
+              "not": {
+                "required": ["values", "default"]
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "number"
+                }
+              }
+            },
+            "then": {
+              "required": ["min"]
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "range"
+                }
+              }
+            },
+            "then": {
+              "required": ["min", "max"]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": ["version", "algorithm", "parameters"]
+}

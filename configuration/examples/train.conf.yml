@@ -1,7 +1,9 @@
 version: '1'
 process: train
 input:
-  file: './path/to/file.ext'
+  file:
+    type: raw
+    filename: './path/to/file.ext'
 windowing:
   enable: true
   parameters:
@@ -13,3 +15,5 @@ features:
   - std_dev
 algorithm:
   name: random_forest
+  parameters:
+    example: parameter

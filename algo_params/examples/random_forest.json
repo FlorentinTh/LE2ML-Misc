@@ -1,0 +1,42 @@
+{
+  "version": "1",
+  "algorithm": "random_forest",
+  "parameters": [
+    {
+      "label": "Trees Number",
+      "slug": "num_trees",
+      "type": "number",
+      "element": "input",
+      "min": 1
+    },
+    {
+      "label": "Criterion",
+      "slug": "criterion",
+      "type": "list",
+      "element": "select",
+      "values": [
+        {
+          "label": "Gini",
+          "slug": "gini"
+        },
+        {
+          "label": "Entropy",
+          "slug": "entropy"
+        }
+      ],
+      "default": "gini"
+    },
+    {
+      "label": "Max Features",
+      "slug": "max_features",
+      "type": "list",
+      "element": "select",
+      "values": [
+        { "label": "Demi Sqrt", "slug": "demi_sqrt" },
+        { "label": "Log2", "slug": "log2" },
+        { "label": "Sqrt", "slug": "sqrt" }
+      ],
+      "default": "sqrt"
+    }
+  ]
+}

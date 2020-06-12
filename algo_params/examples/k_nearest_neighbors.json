@@ -1,0 +1,38 @@
+{
+  "version": "1",
+  "algorithm": "k_nearest_neighbors",
+  "parameters": [
+    {
+      "label": "Neighbors Number",
+      "slug": "num_neighbors",
+      "type": "number",
+      "element": "input",
+      "min": 1
+    },
+    {
+      "label": "Search Algorithm",
+      "slug": "search_algorithm",
+      "type": "list",
+      "element": "select",
+      "values": [
+        { "label": "Ball Tree", "slug": "ball_tree" },
+        { "label": "KD Tree", "slug": "kd_tree" },
+        { "label": "Linear", "slug": "linear" }
+      ],
+      "default": "linear"
+    },
+    {
+      "label": "Distance",
+      "slug": "distance",
+      "type": "list",
+      "element": "select",
+      "values": [
+        { "label": "Euclidean", "slug": "euclidean" },
+        { "label": "Manhattan", "slug": "manhattan" },
+        { "label": "Chebyshev", "slug": "chebyshev" },
+        { "label": "Minkowski", "slug": "minkowski" }
+      ],
+      "default": "euclidean"
+    }
+  ]
+}
