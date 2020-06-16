@@ -19,6 +19,7 @@
         { "label": "KD Tree", "slug": "kd_tree" },
         { "label": "Linear", "slug": "linear" }
       ],
+      "values_type": "string",
       "default": "linear"
     },
     {
@@ -32,6 +33,7 @@
         { "label": "Chebyshev", "slug": "chebyshev" },
         { "label": "Minkowski", "slug": "minkowski" }
       ],
+      "values_type": "string",
       "default": "euclidean"
     }
   ]

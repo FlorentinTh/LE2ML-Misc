@@ -24,6 +24,7 @@
           "slug": "entropy"
         }
       ],
+      "values_type": "string",
       "default": "gini"
     },
     {
@@ -36,6 +37,7 @@
         { "label": "Log2", "slug": "log2" },
         { "label": "Sqrt", "slug": "sqrt" }
       ],
+      "values_type": "string",
       "default": "sqrt"
     }
   ]

@@ -73,8 +73,34 @@
                   "minimum": 0
                 },
                 "function": {
-                  "type": "string",
-                  "enum": ["none", "rectangular", "triangular", "hamming", "hann"]
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string",
+                      "enum": ["none", "rectangular", "triangular", "hamming", "hann"]
+                    },
+                    "container": {
+                      "type": "string",
+                      "pattern": "^[a-z0-9-]+$",
+                      "minLength": 1
+                    }
+                  },
+                  "additionalProperties": false,
+                  "required": ["label"],
+                  "allOf": [
+                    {
+                      "if": {
+                        "properties": {
+                          "label": {
+                            "enum": ["rectangular", "triangular", "hamming", "hann"]
+                          }
+                        }
+                      },
+                      "then": {
+                        "required": ["container"]
+                      }
+                    }
+                  ]
                 },
                 "overlap": {
                   "type": "integer",
@@ -94,23 +120,43 @@
     "features": {
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$",
+            "minLength": 1
+          },
+          "container": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false,
+        "required": ["label", "container"]
       },
-      "uniqueItems": true,
-      "minItems": 1
+      "uniqueItems": true
     },
     "algorithm": {
       "type": "object",
       "properties": {
         "name": {
-          "type": "string"
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$",
+          "minLength": 1
+        },
+        "container": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "minLength": 1
         },
         "parameters": {
           "type": "object"
         }
       },
       "additionalProperties": false,
-      "required": ["name", "parameters"]
+      "required": ["name", "container", "parameters"]
     }
   },
   "required": ["version", "process", "input", "windowing"],
@@ -125,11 +171,6 @@
       },
       "then": {
         "required": ["model"]
-      },
-      "else": {
-        "not": {
-          "required": ["model"]
-        }
       }
     },
     {
@@ -142,11 +183,6 @@
       },
       "then": {
         "required": ["algorithm"]
-      },
-      "else": {
-        "not": {
-          "required": ["algorithm"]
-        }
       }
     }
   ]

@@ -11,9 +11,19 @@
   "windowing": {
     "enable": false
   },
-  "features": ["average", "std_dev"],
+  "features": [
+    {
+      "label": "average",
+      "container": "core-features"
+    },
+    {
+      "label": "std_dev",
+      "container": "core-features"
+    }
+  ],
   "algorithm": {
     "name": "random_forest",
+    "container": "core-py-sk",
     "parameters": {
       "example": "parameter"
     }

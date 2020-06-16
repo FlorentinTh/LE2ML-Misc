@@ -56,6 +56,10 @@
             "uniqueItems": true,
             "additionalItems": false
           },
+          "values_type": {
+            "type": "string",
+            "enum": ["number", "string", "boolean"]
+          },
           "default": {
             "type": "string",
             "pattern": "^[a-z0-9_]+$",
@@ -80,12 +84,7 @@
               }
             },
             "then": {
-              "required": ["values", "default"]
-            },
-            "else": {
-              "not": {
-                "required": ["values", "default"]
-              }
+              "required": ["values", "values_type", "default"]
             }
           },
           {
