@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "LIARA Configuration Schema",
-  "description": "JSON schema to validate configuration files uploaded though the GUI of the IA web tool.",
+  "description": "JSON schema to validate configuration files of ML pipelines.",
   "type": "object",
   "properties": {
     "version": {
@@ -30,7 +30,8 @@
               "format": "uri-reference"
             }
           },
-          "additionalProperties": false
+          "additionalProperties": false,
+          "required": ["type", "filename"]
         },
         "ws": {
           "type": "string",
@@ -86,7 +87,7 @@
                     }
                   },
                   "additionalProperties": false,
-                  "required": ["label"],
+                  "required": ["label", "container"],
                   "allOf": [
                     {
                       "if": {
@@ -165,12 +166,17 @@
       "if": {
         "properties": {
           "process": {
-            "const": "test"
+            "enum": ["train", "test"]
           }
         }
       },
       "then": {
         "required": ["model"]
+      },
+      "else": {
+        "not": {
+          "required": ["model"]
+        }
       }
     },
     {
