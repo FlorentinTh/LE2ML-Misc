@@ -1,5 +1,6 @@
 version: '1'
 process: train
+model: './path/to/model.ext'
 input:
   file:
     type: raw
@@ -10,6 +11,7 @@ windowing:
     length: 60
     function:
       label: none
+      container: core-window-functions
     overlap: 0
 features:
   - label: average

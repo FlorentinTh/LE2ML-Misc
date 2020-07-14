@@ -9,7 +9,8 @@
     "parameters": {
       "length": 60,
       "function": {
-        "label": "none"
+        "label": "none",
+        "container": "core-window-functions"
       },
       "overlap": 0
     }
