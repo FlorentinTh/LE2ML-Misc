@@ -7,6 +7,10 @@
     "version": {
       "type": "string"
     },
+    "pipeline": {
+      "type": "string",
+      "enum": ["machine_learning", "deep_learning"]
+    },
     "process": {
       "type": "string",
       "enum": ["train", "test", "none"]
@@ -160,7 +164,7 @@
       "required": ["name", "container", "parameters"]
     }
   },
-  "required": ["version", "process", "input", "windowing"],
+  "required": ["version", "pipeline", "process", "input", "windowing"],
   "allOf": [
     {
       "if": {
