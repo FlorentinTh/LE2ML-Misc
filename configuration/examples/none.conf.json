@@ -1,5 +1,6 @@
 {
   "version": "1",
+  "pipeline": "machine_learning",
   "process": "none",
   "input": {
     "ws": "ws://url:8080/ws"
