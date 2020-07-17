@@ -1,0 +1,21 @@
+{
+  "label": "test job",
+  "slug": "test_job",
+  "state": "started",
+  "user": {
+    "$oid": "5ed93a900857444fa43b8417"
+  },
+  "startedOn": {
+    "$date": "2020-07-15T15:00:29.549Z"
+  },
+  "pipeline": "machine_learning",
+  "process": "training",
+  "tasks": {
+    "windowing": "queued",
+    "features": "queued",
+    "learning": "queued"
+  },
+  "containers": [],
+  "completedOn": null,
+  "isDeleted": false
+}

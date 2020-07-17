@@ -10,9 +10,7 @@
     "email": "admin@uqac.ca",
     "role": "admin",
     "dateCreated": {
-      "$date": {
-        "$numberLong": "1591367153052"
-      }
+      "$date": "2020-06-05T14:25:53.052Z"
     },
     "lastConnection": null,
     "salt": "$2b$10$GRozyHir7b6hhewXk.xYgu",

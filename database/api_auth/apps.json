@@ -1,0 +1,14 @@
+[
+  {
+    "name": "test app",
+    "description": "key only use in dev for testing purpose.",
+    "dateCreated": {
+      "$date": "2020-07-08T22:30:43.038Z"
+    },
+    "user": {
+      "$oid": "5ed93a900857444fa43b8417"
+    },
+    "salt": "$2b$10$AKxWkf8o15K1i.364rwZ8.",
+    "hash": "$2b$10$AKxWkf8o15K1i.364rwZ8.Byj3kTCts52Vod1aFWpXCpdUH/6Gamu"
+  }
+]
