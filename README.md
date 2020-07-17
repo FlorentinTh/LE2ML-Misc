@@ -2,7 +2,7 @@
 
 [![GitHub Release](https://img.shields.io/github/release/FlorentinTh/PiCluster-Misc?style=flat-square)](https://github.com/FlorentinTh/PiCluster-Misc/releases) [![GitHub](https://img.shields.io/github/license/FlorentinTh/PiCluster-Misc?style=flat-square)](https://github.com/FlorentinTh/PiCluster-Misc/blob/master/LICENSE)
 
-Repository of miscellaneous files and ressources for the PiCluster project.
+Repository of miscellaneous files and resources for the PiCluster project.
 
 ## Authors
 
