@@ -3,6 +3,7 @@
     "label": "average",
     "slug": "average",
     "domain": "time",
+    "source": "inertial",
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
@@ -11,6 +12,7 @@
     "label": "average total",
     "slug": "average_total",
     "domain": "time",
+    "source": "inertial",
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
@@ -19,6 +21,7 @@
     "label": "standard deviation",
     "slug": "std_dev",
     "domain": "time",
+    "source": "inertial",
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
@@ -27,6 +30,7 @@
     "label": "standard deviation total",
     "slug": "std_dev_total",
     "domain": "time",
+    "source": "inertial",
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
@@ -35,6 +39,7 @@
     "label": "skewness",
     "slug": "skewness",
     "domain": "time",
+    "source": "inertial",
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
@@ -43,6 +48,7 @@
     "label": "skewness total",
     "slug": "skewness_total",
     "domain": "time",
+    "source": "inertial",
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
@@ -51,6 +57,7 @@
     "label": "kurtosis",
     "slug": "kurtosis",
     "domain": "time",
+    "source": "inertial",
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
@@ -59,6 +66,7 @@
     "label": "kurtosis total",
     "slug": "kurtosis_total",
     "domain": "time",
+    "source": "inertial",
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
@@ -67,6 +75,7 @@
     "label": "zero crossing rate",
     "slug": "zero_crossing_rate",
     "domain": "time",
+    "source": "inertial",
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
@@ -75,6 +84,7 @@
     "label": "zero crossing rate total",
     "slug": "zero_crossing_rate_total",
     "domain": "time",
+    "source": "inertial",
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
@@ -83,6 +93,7 @@
     "label": "correlation",
     "slug": "correlation",
     "domain": "time",
+    "source": "inertial",
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
@@ -91,6 +102,7 @@
     "label": "correlation total",
     "slug": "correlation_total",
     "domain": "time",
+    "source": "inertial",
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
@@ -99,6 +111,7 @@
     "label": "dc component",
     "slug": "dc_component",
     "domain": "frequential",
+    "source": "inertial",
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
@@ -107,6 +120,7 @@
     "label": "dc component total",
     "slug": "dc_component_total",
     "domain": "frequential",
+    "source": "inertial",
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
@@ -115,6 +129,7 @@
     "label": "energy",
     "slug": "energy",
     "domain": "frequential",
+    "source": "inertial",
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
@@ -123,6 +138,7 @@
     "label": "energy total",
     "slug": "energy_total",
     "domain": "frequential",
+    "source": "inertial",
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
@@ -131,6 +147,7 @@
     "label": "entropy",
     "slug": "entropy",
     "domain": "frequential",
+    "source": "inertial",
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
@@ -139,6 +156,7 @@
     "label": "entropy total",
     "slug": "entropy_total",
     "domain": "frequential",
+    "source": "inertial",
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
