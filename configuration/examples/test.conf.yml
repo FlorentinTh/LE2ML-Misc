@@ -1,5 +1,6 @@
 version: '1'
 pipeline: machine_learning
+source: inertial
 process: test
 model: './path/to/model.ext'
 input:

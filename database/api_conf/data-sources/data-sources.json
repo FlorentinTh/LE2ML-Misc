@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Inertial",
+    "slug": "inertial",
+    "enabled": true,
+    "default": true
+  },
+  {
+    "label": "Vocal",
+    "slug": "vocal",
+    "enabled": true,
+    "default": true
+  }
+]
