@@ -9,6 +9,6 @@
     "label": "Vocal",
     "slug": "vocal",
     "enabled": true,
-    "default": true
+    "default": false
   }
 ]

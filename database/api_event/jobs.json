@@ -6,16 +6,47 @@
     "$oid": "5ed93a900857444fa43b8417"
   },
   "startedOn": {
-    "$date": "2020-07-15T15:00:29.549Z"
+    "$date": "2020-07-28T18:49:07.606Z"
   },
   "pipeline": "machine_learning",
   "process": "training",
   "tasks": {
-    "windowing": "queued",
+    "windowing": "started",
     "features": "queued",
     "learning": "queued"
   },
-  "containers": [],
+  "containers": {
+    "windowing": [
+      {
+        "id": "6f09ee12b872",
+        "name": "core-window-functions",
+        "token": "3e52de96-57d1-4ac1-9849-1e0d617df7c3",
+        "started": true
+      }
+    ],
+    "features": [
+      {
+        "id": null,
+        "name": "core-features",
+        "token": "a532a9ba-8081-4808-b558-3c0cfac75682",
+        "started": null
+      },
+      {
+        "id": null,
+        "name": "test",
+        "token": "2317819237",
+        "started": null
+      }
+    ],
+    "learning": [
+      {
+        "id": null,
+        "name": "core-py-sk",
+        "token": "1c7841be-33db-4d7e-89d0-04ab17570023",
+        "started": null
+      }
+    ]
+  },
   "completedOn": null,
   "isDeleted": false
 }
