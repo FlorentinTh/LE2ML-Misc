@@ -9,7 +9,7 @@
   "windowing": {
     "enable": true,
     "parameters": {
-      "length": 60,
+      "length": "60Hz",
       "function": {
         "label": "none",
         "container": "core-window-functions"
