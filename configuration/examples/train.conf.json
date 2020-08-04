@@ -21,16 +21,19 @@
       "overlap": 0
     }
   },
-  "features": [
-    {
-      "label": "average",
-      "container": "core-features"
-    },
-    {
-      "label": "std_dev",
-      "container": "core-features"
-    }
-  ],
+  "features": {
+    "save": true,
+    "list": [
+      {
+        "label": "average",
+        "container": "core-features"
+      },
+      {
+        "label": "std_dev",
+        "container": "core-features"
+      }
+    ]
+  },
   "algorithm": {
     "name": "random_forest",
     "container": "core-py-sk",

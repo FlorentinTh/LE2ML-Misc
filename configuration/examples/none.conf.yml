@@ -13,7 +13,9 @@ windowing:
       container: core-window-functions
     overlap: 0
 features:
-  - label: average
-    container: core-features
-  - label: std_dev
-    container: core-features
+  save: true
+  list:
+    - label: average
+      container: core-features
+    - label: std_dev
+      container: core-features
