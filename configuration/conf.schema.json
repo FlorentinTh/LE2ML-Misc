@@ -126,25 +126,35 @@
       ]
     },
     "features": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "label": {
-            "type": "string",
-            "pattern": "^[a-z0-9_]+$",
-            "minLength": 1
-          },
-          "container": {
-            "type": "string",
-            "pattern": "^[a-z0-9-]+$",
-            "minLength": 1
-          }
+      "type": "object",
+      "properties": {
+        "save": {
+          "type": "boolean"
         },
-        "additionalProperties": false,
-        "required": ["label", "container"]
+        "list": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string",
+                "pattern": "^[a-z0-9_]+$",
+                "minLength": 1
+              },
+              "container": {
+                "type": "string",
+                "pattern": "^[a-z0-9-]+$",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false,
+            "required": ["label", "container"]
+          },
+          "uniqueItems": true
+        }
       },
-      "uniqueItems": true
+      "additionalProperties": false,
+      "required": ["save", "list"]
     },
     "algorithm": {
       "type": "object",
