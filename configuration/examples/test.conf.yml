@@ -11,6 +11,7 @@ windowing:
   enable: false
 features:
   save: true
+  filename: 'output.csv'
   list:
     - label: average
       container: core-features

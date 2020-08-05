@@ -15,6 +15,7 @@
   },
   "features": {
     "save": true,
+    "filename": "output.csv",
     "list": [
       {
         "label": "average",

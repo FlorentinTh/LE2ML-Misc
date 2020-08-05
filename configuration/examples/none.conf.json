@@ -8,6 +8,7 @@
   },
   "windowing": {
     "enable": true,
+    "filename": "output.csv",
     "parameters": {
       "length": "60Hz",
       "function": {
