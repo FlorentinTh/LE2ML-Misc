@@ -131,6 +131,10 @@
         "save": {
           "type": "boolean"
         },
+        "filename": {
+          "type": "string",
+          "format": "uri-reference"
+        },
         "list": {
           "type": "array",
           "items": {
@@ -154,7 +158,26 @@
         }
       },
       "additionalProperties": false,
-      "required": ["save", "list"]
+      "required": ["save", "list"],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "save": {
+                "const": true
+              }
+            }
+          },
+          "then": {
+            "required": ["filename"]
+          },
+          "else": {
+            "not": {
+              "required": ["filename"]
+            }
+          }
+        }
+      ]
     },
     "algorithm": {
       "type": "object",
