@@ -36,8 +36,8 @@
     "isDeleted": false
   },
   {
-    "label": "skewness",
-    "slug": "skewness",
+    "label": "normal skewness",
+    "slug": "normal_skewness",
     "domain": "time",
     "source": "inertial",
     "enabled": true,
@@ -45,8 +45,8 @@
     "isDeleted": false
   },
   {
-    "label": "skewness total",
-    "slug": "skewness_total",
+    "label": "normal skewness total",
+    "slug": "normal_skewness_total",
     "domain": "time",
     "source": "inertial",
     "enabled": true,
@@ -54,8 +54,26 @@
     "isDeleted": false
   },
   {
-    "label": "kurtosis",
-    "slug": "kurtosis",
+    "enabled": true,
+    "isDeleted": false,
+    "label": "adjusted skewness",
+    "domain": "time",
+    "source": "inertial",
+    "slug": "adjusted_skewness",
+    "container": "core-features"
+  },
+  {
+    "enabled": true,
+    "isDeleted": false,
+    "label": "adjusted skewness total",
+    "domain": "time",
+    "source": "inertial",
+    "slug": "adjusted_skewness_total",
+    "container": "core-features"
+  },
+  {
+    "label": "normal kurtosis",
+    "slug": "normal_kurtosis",
     "domain": "time",
     "source": "inertial",
     "enabled": true,
@@ -63,13 +81,31 @@
     "isDeleted": false
   },
   {
-    "label": "kurtosis total",
-    "slug": "kurtosis_total",
+    "label": "normal kurtosis total",
+    "slug": "normal_kurtosis_total",
     "domain": "time",
     "source": "inertial",
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
+  },
+  {
+    "enabled": true,
+    "isDeleted": false,
+    "label": "adjusted kurtosis",
+    "domain": "time",
+    "source": "inertial",
+    "slug": "adjusted_kurtosis",
+    "container": "core-features"
+  },
+  {
+    "enabled": true,
+    "isDeleted": false,
+    "label": "adjusted kurtosis total",
+    "domain": "time",
+    "source": "inertial",
+    "slug": "adjusted_kurtosis_total",
+    "container": "core-features"
   },
   {
     "label": "zero crossing rate",
@@ -94,7 +130,7 @@
     "slug": "correlation",
     "domain": "time",
     "source": "inertial",
-    "enabled": true,
+    "enabled": false,
     "container": "core-features",
     "isDeleted": false
   },
@@ -103,7 +139,7 @@
     "slug": "correlation_total",
     "domain": "time",
     "source": "inertial",
-    "enabled": true,
+    "enabled": false,
     "container": "core-features",
     "isDeleted": false
   },
@@ -123,7 +159,7 @@
     "source": "inertial",
     "enabled": true,
     "container": "core-features",
-    "isDeleted": false
+    "isDeleted": true
   },
   {
     "label": "energy",
@@ -141,7 +177,7 @@
     "source": "inertial",
     "enabled": true,
     "container": "core-features",
-    "isDeleted": false
+    "isDeleted": true
   },
   {
     "label": "entropy",
@@ -159,6 +195,6 @@
     "source": "inertial",
     "enabled": true,
     "container": "core-features",
-    "isDeleted": false
+    "isDeleted": true
   }
 ]
