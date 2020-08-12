@@ -126,20 +126,11 @@
     "isDeleted": false
   },
   {
-    "label": "correlation",
-    "slug": "correlation",
+    "label": "correlations",
+    "slug": "correlations",
     "domain": "time",
     "source": "inertial",
-    "enabled": false,
-    "container": "core-features",
-    "isDeleted": false
-  },
-  {
-    "label": "correlation total",
-    "slug": "correlation_total",
-    "domain": "time",
-    "source": "inertial",
-    "enabled": false,
+    "enabled": true,
     "container": "core-features",
     "isDeleted": false
   },
