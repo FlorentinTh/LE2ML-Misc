@@ -144,15 +144,6 @@
     "isDeleted": false
   },
   {
-    "label": "dc component total",
-    "slug": "dc_component_total",
-    "domain": "frequential",
-    "source": "inertial",
-    "enabled": true,
-    "container": "core-features",
-    "isDeleted": true
-  },
-  {
     "label": "energy",
     "slug": "energy",
     "domain": "frequential",
@@ -160,16 +151,7 @@
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
-  },
-  {
-    "label": "energy total",
-    "slug": "energy_total",
-    "domain": "frequential",
-    "source": "inertial",
-    "enabled": true,
-    "container": "core-features",
-    "isDeleted": true
-  },
+  }
   {
     "label": "entropy",
     "slug": "entropy",
@@ -178,14 +160,5 @@
     "enabled": true,
     "container": "core-features",
     "isDeleted": false
-  },
-  {
-    "label": "entropy total",
-    "slug": "entropy_total",
-    "domain": "frequential",
-    "source": "inertial",
-    "enabled": true,
-    "container": "core-features",
-    "isDeleted": true
   }
 ]
