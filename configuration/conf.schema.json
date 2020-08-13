@@ -78,7 +78,7 @@
               "properties": {
                 "length": {
                   "type": "string",
-                  "pattern": "^([1-9]|[1-9][0-9]|[1][0-9][0-9]|20[0-0])[(Hz|s|m)]+$"
+                  "pattern": "^([1-9]|[1-9][0-9]+)[(Hz|s|m)]+$"
                 },
                 "function": {
                   "type": "object",
