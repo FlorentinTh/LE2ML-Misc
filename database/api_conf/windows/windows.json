@@ -4,39 +4,39 @@
     "slug": "rectangular",
     "enabled": true,
     "default": true,
-    "container": "core-window-functions",
+    "container": "core-windowing",
     "isDeleted": false
   },
   {
     "label": "triangular",
     "slug": "triangular",
-    "enabled": false,
+    "enabled": true,
     "default": false,
-    "container": "core-window-functions",
+    "container": "core-windowing",
     "isDeleted": false
   },
   {
     "label": "hamming",
     "slug": "hamming",
-    "enabled": false,
+    "enabled": true,
     "default": false,
-    "container": "core-window-functions",
+    "container": "core-windowing",
     "isDeleted": false
   },
   {
     "label": "hann",
     "slug": "hann",
-    "enabled": false,
+    "enabled": true,
     "default": false,
-    "container": "core-window-functions",
+    "container": "core-windowing",
     "isDeleted": false
   },
   {
     "label": "blackman",
     "slug": "blackman",
-    "enabled": false,
+    "enabled": true,
     "default": false,
-    "container": "core-window-functions",
+    "container": "core-windowing",
     "isDeleted": false
   }
 ]
