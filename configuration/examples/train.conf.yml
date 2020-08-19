@@ -3,6 +3,7 @@ pipeline: machine_learning
 source: inertial
 process: train
 model: './path/to/model.ext'
+cross-validation: true
 input:
   file:
     type: raw
@@ -17,7 +18,7 @@ windowing:
     overlap: 0
 features:
   save: true
-  filename: 'output.csv'
+  filename: output.csv
   list:
     - label: average
       container: core-features

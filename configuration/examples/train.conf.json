@@ -4,6 +4,7 @@
   "source": "inertial",
   "process": "train",
   "model": "./path/to/model.ext",
+  "cross-validation": true,
   "input": {
     "file": {
       "type": "raw",
