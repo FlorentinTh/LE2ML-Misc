@@ -22,6 +22,9 @@
       "type": "string",
       "format": "iri-reference"
     },
+    "cross-validation": {
+      "type": "boolean"
+    },
     "input": {
       "type": "object",
       "properties": {
@@ -216,6 +219,23 @@
       "else": {
         "not": {
           "required": ["model"]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "process": {
+            "enum": ["train"]
+          }
+        }
+      },
+      "then": {
+        "required": ["cross-validation"]
+      },
+      "else": {
+        "not": {
+          "required": ["cross-validation"]
         }
       }
     },
