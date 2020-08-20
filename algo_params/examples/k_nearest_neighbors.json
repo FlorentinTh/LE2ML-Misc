@@ -30,8 +30,7 @@
       "values": [
         { "label": "Euclidean", "slug": "euclidean" },
         { "label": "Manhattan", "slug": "manhattan" },
-        { "label": "Chebyshev", "slug": "chebyshev" },
-        { "label": "Minkowski", "slug": "minkowski" }
+        { "label": "Chebyshev", "slug": "chebyshev" }
       ],
       "values_type": "string",
       "default": "euclidean"
