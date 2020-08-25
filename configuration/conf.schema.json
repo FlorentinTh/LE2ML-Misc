@@ -200,7 +200,7 @@
         }
       },
       "additionalProperties": false,
-      "required": ["name", "container", "parameters"]
+      "required": ["container"]
     }
   },
   "required": ["version", "pipeline", "source", "process", "input", "windowing"],
@@ -214,11 +214,11 @@
         }
       },
       "then": {
-        "required": ["model"]
+        "required": ["model", "algorithm"]
       },
       "else": {
         "not": {
-          "required": ["model"]
+          "required": ["model", "algorithm"]
         }
       }
     },
@@ -231,24 +231,17 @@
         }
       },
       "then": {
-        "required": ["cross-validation"]
+        "required": ["cross-validation"],
+        "properties": {
+          "algorithm": {
+            "required": ["name", "parameters"]
+          }
+        }
       },
       "else": {
         "not": {
           "required": ["cross-validation"]
         }
-      }
-    },
-    {
-      "if": {
-        "properties": {
-          "process": {
-            "enum": ["train", "test"]
-          }
-        }
-      },
-      "then": {
-        "required": ["algorithm"]
       }
     }
   ]
