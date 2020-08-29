@@ -1,52 +1,167 @@
-{
-  "label": "test job",
-  "slug": "test_job",
-  "state": "started",
-  "user": {
-    "$oid": "5ed93a900857444fa43b8417"
+[
+  {
+    "label": "first test",
+    "slug": "first_test",
+    "user": {
+      "$oid": "5ed93a900857444fa43b8417"
+    },
+    "pipeline": "machine_learning",
+    "process": "training",
+    "startedOn": {
+      "$date": "2020-08-28T18:48:18.037Z"
+    },
+    "tasks": {
+      "windowing": "completed",
+      "features": "completed",
+      "learning": "completed"
+    },
+    "containers": {
+      "windowing": [
+        {
+          "id": "7cc09f215b11bdf6af02163c630332145bbf47dcdb52db25e966be0312a346f3",
+          "name": "core-windowing",
+          "token": "1d25a4a0-2103-4a15-9205-680f9bb1bb26",
+          "started": false
+        }
+      ],
+      "features": [
+        {
+          "id": "836f8e7fb009e0c76266a33b9bd206da2eed999d4f9e96ff1f15fed7dbb06e15",
+          "name": "core-inertial-features",
+          "token": "d2d3e5b8-2f48-43f9-8481-52c1c62be967",
+          "started": false
+        }
+      ],
+      "learning": [
+        {
+          "id": "6a2ec17e1d8998552ada64130847d8a3d5b179cd567a50e49db7ed45b747e770",
+          "name": "core-py-sk",
+          "token": "146f426b-1516-4438-a49c-a1efc9601b15",
+          "started": false
+        }
+      ]
+    },
+    "state": "completed",
+    "results": {
+      "accuracy": "90.67",
+      "f1Score": "91",
+      "kappa": "86"
+    },
+    "completedOn": {
+      "$date": "2020-08-28T18:48:35.880Z"
+    },
+    "isDeleted": false
   },
-  "startedOn": {
-    "$date": "2020-07-28T18:49:07.606Z"
+  {
+    "label": "second test",
+    "slug": "second_test",
+    "user": {
+      "$oid": "5ed93a900857444fa43b8417"
+    },
+    "pipeline": "machine_learning",
+    "process": "training",
+    "startedOn": {
+      "$date": "2020-08-28T18:51:32.423Z"
+    },
+    "tasks": {
+      "windowing": "completed",
+      "features": "completed",
+      "learning": "completed"
+    },
+    "containers": {
+      "windowing": [
+        {
+          "id": "aff1288e7b780ba546c142aa588a4cf1c45a80ac0420ad6416c0a506f2390841",
+          "name": "core-windowing",
+          "token": "2a0bec5e-cb0d-415a-bc72-371f4e1d6fa8",
+          "started": false
+        }
+      ],
+      "features": [
+        {
+          "id": "deb55ac4e72d8e245ae8194c861f72a707b9a52c7269f727ecf94a3c990eeabd",
+          "name": "core-inertial-features",
+          "token": "5b8819e7-68fa-4120-a2a0-39d88494d80a",
+          "started": false
+        }
+      ],
+      "learning": [
+        {
+          "id": "658fbba05d12af74c38b45309a44decb411e8c54dc5d066b85dd2c7c8dff722a",
+          "name": "core-py-sk",
+          "token": "dd23ff75-7a76-4bef-99b0-b3acc288b348",
+          "started": false
+        }
+      ]
+    },
+    "state": "completed",
+    "results": {
+      "accuracy": "90.7",
+      "f1Score": "91",
+      "kappa": "86"
+    },
+    "completedOn": {
+      "$date": "2020-08-28T18:52:04.588Z"
+    },
+    "isDeleted": false
   },
-  "pipeline": "machine_learning",
-  "process": "training",
-  "tasks": {
-    "windowing": "started",
-    "features": "queued",
-    "learning": "queued"
-  },
-  "containers": {
-    "windowing": [
-      {
-        "id": "6f09ee12b872",
-        "name": "core-window-functions",
-        "token": "3e52de96-57d1-4ac1-9849-1e0d617df7c3",
-        "started": true
-      }
-    ],
-    "features": [
-      {
-        "id": null,
-        "name": "core-features",
-        "token": "a532a9ba-8081-4808-b558-3c0cfac75682",
-        "started": null
-      },
-      {
-        "id": null,
-        "name": "test",
-        "token": "2317819237",
-        "started": null
-      }
-    ],
-    "learning": [
-      {
-        "id": null,
-        "name": "core-py-sk",
-        "token": "1c7841be-33db-4d7e-89d0-04ab17570023",
-        "started": null
-      }
-    ]
-  },
-  "completedOn": null,
-  "isDeleted": false
-}
+  {
+    "label": "third_test",
+    "slug": "third_test",
+    "user": {
+      "$oid": "5ed93a900857444fa43b8417"
+    },
+    "pipeline": "machine_learning",
+    "process": "training",
+    "startedOn": {
+      "$date": "2020-08-29T04:15:56.321Z"
+    },
+    "tasks": {
+      "windowing": "completed",
+      "features": "completed",
+      "learning": "completed"
+    },
+    "containers": {
+      "windowing": [
+        {
+          "id": "daccc6cec1591bc63043dd8ecdfdbf9ce026232ddc85cff8e34871e0ad4aaa3a",
+          "name": "core-windowing",
+          "token": "421b5cd0-b3d1-4b0b-8b5e-62ea0df5033d",
+          "started": false
+        }
+      ],
+      "features": [
+        {
+          "id": "82e5863bd938cfed803ef965caf2f1ca2c3e0b8646977133fb3406a07f565517",
+          "name": "core-inertial-time",
+          "token": "1d0a84f7-f9c4-4feb-bb86-cfc8027bac52",
+          "started": false
+        },
+        {
+          "id": "e17491766a10901f100c5a0a78b7c3e8b53ff0748a0e48767f77180320527527",
+          "name": "core-inertial-freq",
+          "token": "82daf7ce-4915-4fee-8839-870ec90a69e7",
+          "started": false
+        }
+      ],
+      "learning": [
+        {
+          "id": "76677757923a3207cf332924eea2ef71624ef70676f48c4a1aeb822ca2032204",
+          "name": "core-py-sk",
+          "token": "4f84f4af-d61a-48f3-b492-805cbf921c47",
+          "started": false
+        }
+      ]
+    },
+    "state": "completed",
+    "results": {
+      "accuracy": "90.67",
+      "f1Score": "91",
+      "kappa": "86"
+    },
+    "completedOn": {
+      "$date": "2020-08-29T04:16:13.676Z"
+    },
+    "isDeleted": false
+  }
+]

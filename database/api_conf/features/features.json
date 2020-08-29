@@ -1,128 +1,29 @@
 [
   {
-    "label": "average",
-    "slug": "average",
-    "domain": "time",
-    "source": "inertial",
-    "enabled": true,
-    "container": "core-inertial-features",
-    "isDeleted": false
-  },
-  {
-    "label": "average total",
-    "slug": "average_total",
-    "domain": "time",
-    "source": "inertial",
-    "enabled": true,
-    "container": "core-inertial-features",
-    "isDeleted": false
-  },
-  {
     "label": "standard deviation",
     "slug": "std_dev",
     "domain": "time",
     "source": "inertial",
-    "enabled": true,
     "container": "core-inertial-features",
+    "enabled": true,
     "isDeleted": false
   },
   {
-    "label": "standard deviation total",
-    "slug": "std_dev_total",
+    "label": "skewness total (adjusted)",
+    "slug": "skewness_adjusted_total",
     "domain": "time",
     "source": "inertial",
-    "enabled": true,
     "container": "core-inertial-features",
+    "enabled": true,
     "isDeleted": false
   },
   {
-    "label": "normal skewness",
-    "slug": "normal_skewness",
+    "label": "kurtosis (normal)",
+    "slug": "kurtosis_normal",
     "domain": "time",
     "source": "inertial",
-    "enabled": true,
     "container": "core-inertial-features",
-    "isDeleted": false
-  },
-  {
-    "label": "normal skewness total",
-    "slug": "normal_skewness_total",
-    "domain": "time",
-    "source": "inertial",
     "enabled": true,
-    "container": "core-inertial-features",
-    "isDeleted": false
-  },
-  {
-    "enabled": true,
-    "isDeleted": false,
-    "label": "adjusted skewness",
-    "domain": "time",
-    "source": "inertial",
-    "slug": "adjusted_skewness",
-    "container": "core-inertial-features"
-  },
-  {
-    "enabled": true,
-    "isDeleted": false,
-    "label": "adjusted skewness total",
-    "domain": "time",
-    "source": "inertial",
-    "slug": "adjusted_skewness_total",
-    "container": "core-inertial-features"
-  },
-  {
-    "label": "normal kurtosis",
-    "slug": "normal_kurtosis",
-    "domain": "time",
-    "source": "inertial",
-    "enabled": true,
-    "container": "core-inertial-features",
-    "isDeleted": false
-  },
-  {
-    "label": "normal kurtosis total",
-    "slug": "normal_kurtosis_total",
-    "domain": "time",
-    "source": "inertial",
-    "enabled": true,
-    "container": "core-inertial-features",
-    "isDeleted": false
-  },
-  {
-    "enabled": true,
-    "isDeleted": false,
-    "label": "adjusted kurtosis",
-    "domain": "time",
-    "source": "inertial",
-    "slug": "adjusted_kurtosis",
-    "container": "core-inertial-features"
-  },
-  {
-    "enabled": true,
-    "isDeleted": false,
-    "label": "adjusted kurtosis total",
-    "domain": "time",
-    "source": "inertial",
-    "slug": "adjusted_kurtosis_total",
-    "container": "core-inertial-features"
-  },
-  {
-    "label": "zero crossing rate",
-    "slug": "zero_crossing_rate",
-    "domain": "time",
-    "source": "inertial",
-    "enabled": true,
-    "container": "core-inertial-features",
-    "isDeleted": false
-  },
-  {
-    "label": "zero crossing rate total",
-    "slug": "zero_crossing_rate_total",
-    "domain": "time",
-    "source": "inertial",
-    "enabled": true,
-    "container": "core-inertial-features",
     "isDeleted": false
   },
   {
@@ -130,26 +31,8 @@
     "slug": "correlations",
     "domain": "time",
     "source": "inertial",
-    "enabled": true,
     "container": "core-inertial-features",
-    "isDeleted": false
-  },
-  {
-    "label": "dc component",
-    "slug": "dc_component",
-    "domain": "frequential",
-    "source": "inertial",
     "enabled": true,
-    "container": "core-inertial-features",
-    "isDeleted": false
-  },
-  {
-    "label": "energy",
-    "slug": "energy",
-    "domain": "frequential",
-    "source": "inertial",
-    "enabled": true,
-    "container": "core-inertial-features",
     "isDeleted": false
   },
   {
@@ -157,8 +40,125 @@
     "slug": "entropy",
     "domain": "frequential",
     "source": "inertial",
-    "enabled": true,
     "container": "core-inertial-features",
+    "enabled": true,
+    "isDeleted": false
+  },
+  {
+    "label": "kurtosis (adjusted)",
+    "slug": "kurtosis_adjusted",
+    "domain": "time",
+    "source": "inertial",
+    "container": "core-inertial-features",
+    "enabled": true,
+    "isDeleted": false
+  },
+  {
+    "label": "skewness total (normal)",
+    "slug": "skewness_normal_total",
+    "domain": "time",
+    "source": "inertial",
+    "container": "core-inertial-features",
+    "enabled": true,
+    "isDeleted": false
+  },
+  {
+    "label": "zero crossing rate total",
+    "slug": "zero_crossing_rate_total",
+    "domain": "time",
+    "source": "inertial",
+    "container": "core-inertial-features",
+    "enabled": true,
+    "isDeleted": false
+  },
+  {
+    "label": "energy",
+    "slug": "energy",
+    "domain": "frequential",
+    "source": "inertial",
+    "container": "core-inertial-features",
+    "enabled": true,
+    "isDeleted": false
+  },
+  {
+    "label": "skewness (adjusted)",
+    "domain": "time",
+    "source": "inertial",
+    "slug": "skewness_adjusted",
+    "container": "core-inertial-features",
+    "enabled": true,
+    "isDeleted": false
+  },
+  {
+    "label": "dc component",
+    "slug": "dc_component",
+    "domain": "frequential",
+    "source": "inertial",
+    "container": "core-inertial-features",
+    "enabled": true,
+    "isDeleted": false
+  },
+  {
+    "label": "skewness (normal)",
+    "slug": "skewness_normal",
+    "domain": "time",
+    "source": "inertial",
+    "container": "core-inertial-features",
+    "enabled": true,
+    "isDeleted": false
+  },
+  {
+    "label": "average total",
+    "slug": "average_total",
+    "domain": "time",
+    "source": "inertial",
+    "container": "core-inertial-features",
+    "enabled": true,
+    "isDeleted": false
+  },
+  {
+    "label": "average",
+    "slug": "average",
+    "domain": "time",
+    "source": "inertial",
+    "container": "core-inertial-features",
+    "enabled": true,
+    "isDeleted": false
+  },
+  {
+    "label": "zero crossing rate",
+    "slug": "zero_crossing_rate",
+    "domain": "time",
+    "source": "inertial",
+    "container": "core-inertial-features",
+    "enabled": true,
+    "isDeleted": false
+  },
+  {
+    "label": "standard deviation total",
+    "slug": "std_dev_total",
+    "domain": "time",
+    "source": "inertial",
+    "container": "core-inertial-features",
+    "enabled": true,
+    "isDeleted": false
+  },
+  {
+    "label": "kurtosis total (adjusted)",
+    "slug": "kurtosis_adjusted_total",
+    "domain": "time",
+    "source": "inertial",
+    "container": "core-inertial-features",
+    "enabled": true,
+    "isDeleted": false
+  },
+  {
+    "label": "kurtosis total (normal)",
+    "slug": "kurtosis_normal_total",
+    "domain": "time",
+    "source": "inertial",
+    "container": "core-inertial-features",
+    "enabled": true,
     "isDeleted": false
   }
 ]
