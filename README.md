@@ -1,8 +1,8 @@
-# PiCluster-Misc
+# LE2ML-Misc
 
-[![GitHub Release](https://img.shields.io/github/release/FlorentinTh/PiCluster-Misc?style=flat-square)](https://github.com/FlorentinTh/PiCluster-Misc/releases) [![GitHub](https://img.shields.io/github/license/FlorentinTh/PiCluster-Misc?style=flat-square)](https://github.com/FlorentinTh/PiCluster-Misc/blob/master/LICENSE)
+[![GitHub Release](https://img.shields.io/github/release/FlorentinTh/LE2ML-Misc?style=flat-square)](https://github.com/FlorentinTh/LE2ML-Misc/releases) [![GitHub](https://img.shields.io/github/license/FlorentinTh/LE2ML-Misc?style=flat-square)](https://github.com/FlorentinTh/LE2ML-Misc/blob/master/LICENSE)
 
-Repository of miscellaneous files and resources for the PiCluster project.
+Repository of miscellaneous files and resources for the LE2ML workbench.
 
 ## Authors
 
